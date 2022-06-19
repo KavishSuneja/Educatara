@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    border: px solid red;
+    width: 97%;
+    margin: 10px auto;
+
+    
+    /*FONTS*/
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #444444;
+    text-align: left;
+
+}
+
+.head1{
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+    font-weight: bolder;
+}
+
+.second,.fourth{
+    border: px solid green;
+    height: 200px;
+}
+
+.image{
+    border: px solid brown;
+    float: right;
+    width: 30%;
+    height: 100%;
+
+}
+
+.second .image{
+
+    border: px solid red;
+
+    background-image: url(images/imperativeseconod.gif);
+    background-position: bottom;
+    background-size: cover;
+    
+}
+
+.fourth .image{
+
+    
+    background-image: url(images/fourthimperative.gif);
+    background-position: bottom;
+    background-size: cover;
+}
+
+@media screen and (max-width:700px) {
+
+    .head1{
+        font-size: 19px;
+    }
+    
+    .image{
+        width: 100%;
+    }
+
+    .third{
+        border: px solid green;
+        margin-top: 100px;
+    }
+}

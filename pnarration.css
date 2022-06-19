@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    border: px solid red;
+    width: 50%;
+    margin: 0px auto;
+
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #444444;
+    text-align: left;
+}
+
+@media screen and (max-width:700px) {
+
+    .content{
+        font-size: 18px;
+        width: 97%;
+    }
+    
+    
+}
+
+@media screen and (min-width:701px) and (max-width:1023px) {
+
+    .content{
+        font-size: 20px;
+        width: 97%;
+    }
+       
+}

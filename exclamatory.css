@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    border: px solid red;
+    width: 97%;
+    margin: 20px auto;
+    /*FONTS*/
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #444444;
+    text-align: left;
+
+}
+
+.exc{
+    border: px solid blue;
+    width: 30%;
+    margin: 0px auto;
+
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+    font-weight: bolder;
+}
+
+.first,.second{
+    border: px solid red;
+    height: auto;
+}
+
+@media screen and (max-width:700px) {
+
+    .exc{
+        width: 100%;
+    }
+    
+}
