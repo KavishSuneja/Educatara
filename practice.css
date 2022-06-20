@@ -32,7 +32,7 @@ li{
 }
 
 a{
-    border: px solid white;
+    border: 1px solid white;
     border-radius: 8px;
 
     /*FONTS*/
@@ -105,4 +105,11 @@ nav ul li:hover .dropdown{
     height: 100%;
 
     border: none;
+}
+
+@media screen and (max-width:700px) {
+    a{
+        text-transform: none;
+    }
+    
 }

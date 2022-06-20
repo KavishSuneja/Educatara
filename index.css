@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    border: px solid red;
 }
 
 html{
@@ -75,7 +76,7 @@ li{
     margin: 0px 5px;
 }
 
-a{
+ nav ul li a{
     border: px solid white;
     border-radius: 8px;
 
@@ -137,6 +138,10 @@ a{
     border: px solid red;
     width: 100%;
     margin: 0px;
+}
+
+.imgwala{
+    border: none;
 }
 
 .checkbtn{
@@ -903,6 +908,8 @@ textarea::placeholder{
 
     .bottom2{
         width: 100%;
+        margin-top: 0px;
+        border: px solid blue;
         
     }
 
