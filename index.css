@@ -740,6 +740,7 @@ textarea::placeholder{
         left: -100%;
         text-align: right;
         transition: all .5s ;
+        z-index: 100;
     }
 
    nav li{
@@ -955,6 +956,7 @@ textarea::placeholder{
         left: -100%;
         text-align: right;
         transition: all .5s ;
+        z-index: 100;
     }
 
    nav li{
@@ -1032,14 +1034,14 @@ textarea::placeholder{
         /* display: none; */
         position: absolute;
         left: 25%;
-        top: 60%;
+        top: 65%;
 
         /*FONTS*/
 
         color: #E74C3C;
         font-weight: bolder;
         font-style: italic;
-        font-size: 15vw;
+        font-size: 14vw;
     }
 
     .AboutUs{
